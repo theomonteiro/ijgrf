@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Theo</title>
+
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Theo Monteiro</div>
+        <ul class="nav-links">
+            <li>
+                <a href="https://github.com/theomonteiro" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/theo-monteiro-96b00235a" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="sticky-wrapper">
+            <div class="sticky-content">
+
+                <div class="item">
+                    <h1>Sobre Mim</h1>
+                    <p>
+                        Olá,<br>
+                        Sou **Theo Monteiro**, estudante de **Ciência da Computação** (1º período) e estagiário de TI.<br><br>
+                        **Tecnologias que trabalho:**<br><br>
+                        <span class="tech"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tech"><i class="fab fa-python"></i> Python</span>
+                        <span class="tech"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="tech"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="tech"><i class="fab fa-html5"></i> HTML</span>
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h1>Projetos</h1>
+                    <div class="projects-container">
+                        <div class="project-card">
+                            <h2>Gravity Rush</h2>
+                            <p>Jogo de video-game no estilo cyberpunk desenvolvido para a matéria: Experiência Criativa</p>
+                            <a href="https://link-do-projeto-1.com" target="_blank" class="btn">Ver Projeto</a>
+                        </div>
+                        
+                        <div class="project-card">
+                            <h2>Curitiba+ Sustentável</h2>
+                            <p>Website desenvolvido com banco de dados Firebase, Html, JS e Css.</p>
+                            <a href="https://trabalho-curitiba-sustent-vel.vercel.app" target="_blank" class="btn">Ver Projeto</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h2>Batalha Naval</h2>
+                            <p>Descrição breve do projeto 4, explicando o que ele faz e as tecnologias usadas.</p>
+                            <a href="https://github.com/CaioKloppel/batalhaNaval" target="_blank" class="btn">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <h1>Contato</h1>
+                </div>
+
+            </div>
+        </div>
+        <section class="contact-section">
+          <h1 class="contact-title">Entre em contato</h1>
+          <form class="contact-form" id="contact-form">
+              <input type="text" name="name" placeholder="Seu nome" required>
+              <input type="email" name="email" placeholder="Quer uma resposta? Seu e-mail" required>
+              <textarea name="message" placeholder="Diga algo..." rows="5" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+          <p id="form-status" class="form-status"></p>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
